@@ -14,7 +14,7 @@ This is an unofficial, FOSS-friendly fork of the original [Telegram App for Andr
 - FFmpeg prebuilts are replaced with source code built at compile time (slp)
 - libtgvoip prebuilts are replaced with source code built at compile time (thermatk)
 
-*Removal of non-FOSS, untrustworthy or suspicious binaries or source code and their functionality*
+*Removal of non-FOSS, untrustworthy or suspicious binaries or source code and their functionality:*
 - Google Vision face detection
 - Bing image search (requires API key)
 - Foursquare map search (requires API key)
