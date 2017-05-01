@@ -4,7 +4,21 @@
 
 This is an unofficial, FOSS-friendly fork of the original [Telegram App for Android](https://github.com/DrKLO/Telegram).
 
-Several proprietary parts were removed from the original Telegram client, including Google Play Services for the location services, HockeySDK for self-updates and push notifications through Google Cloud Messaging.
+**Changes:**
+
+*Replacement of non-FOSS, untrustworthy or suspicious binaries or source code:*
+- Do location sharing with OpenStreetMap instead of Google Maps (thermatk)
+- Use emojiOne emoji set instead of Apple's emoji (thermatk)
+- Google Play Services GCM replaced with always-on Telegram's push service (slp)
+- BoringSSL bundled source and binaries are replaced with upstream OpenSSL source code built at compile time (Bubu)
+- FFmpeg prebuilts are replaced with source code built at compile time (slp)
+- libtgvoip prebuilts are replaced with source code built at compile time (thermatk)
+
+*Removal of non-FOSS, untrustworthy or suspicious binaries or source code and their functionality*
+- Google Vision face detection
+- Bing image search (requires API key)
+- Foursquare map search (requires API key)
+- HockeyApp crash reporting and self-updates
 
 This version of Telegram is available on FDroid: 
 
